@@ -1,0 +1,83 @@
+.assignment-wrapper {
+  border: 1px dashed rgba(140, 24, 41, 0.29);
+  padding: 2em;
+  border-radius: 1em;
+  margin-top: 2em;
+}
+
+.section-title {
+  width: min-content;
+  margin-top: -2em;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.assignment-wrapper-title {
+  width: min-content !important;
+  margin-bottom: 1em !important;
+  margin-top: -2em !important;
+  white-space: nowrap !important;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.comment-bubble-this {
+  background-color: lightskyblue;
+  padding: 0.5em;
+  margin: 1em 0em;
+  /* border-radius: 2em; */
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  width: fit-content;
+}
+
+.comment-bubble-other {
+  background-color: lightgoldenrodyellow;
+  padding: 0.5em;
+  margin: 1em 0em;
+  /* border-radius: 2em; */
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-width: 1px;
+  width: fit-content;
+}
+
+.edit-button {
+  cursor: pointer;
+  color: purple;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.delete-button {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.font-link {
+  font-family: "Fasthand", cursive;
+  font-size: 60px;
+  color: blue;
+  text-shadow: 1px 1px 2px rgb(192, 217, 255);
+}
+.box {
+  background: linear-gradient(rgba(106, 195, 251, 0.375), transparent);
+  background-color: rgba(238, 147, 171, 0.275); /*this your primary color*/
+}
+
+.box2 {
+  background: linear-gradient(rgba(238, 147, 171, 0.475), transparent);
+  background-color: rgba(253, 253, 253, 0); /*this your primary color*/
+}
+
+.box3{
+  background: linear-gradient(rgba(103, 186, 254, 0.545), transparent);
+  background-color: rgba(255, 255, 255, 0.056); /*this your primary color*/
+}
+
+.hh{
+  height:max-content;
+}
